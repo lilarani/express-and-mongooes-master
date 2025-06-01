@@ -18,4 +18,18 @@
 
 ## Node.js Core Modules
 
+- [class-9 What is an event module](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-9%20What%20is%20an%20event%20module)
+
+- [class-10 Synchronous way to read and write files](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-10%20Synchronous%20way%20to%20read%20and%20write%20files)
+
+- [class-11 Asynchronous way to read and write files](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-11%20Asynchronous%20way%20to%20read%20and%20write%20files)
+
+- [class-12 Buffer and Streaming](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-12%20Buffer%20and%20Streaming)
+
+- [class-13 basic logger app & Path module](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-13%20basic%20logger%20app%20%26%20Path%20module)
+
+- [class-14 Creating a todo app with basic http server using nodejs](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-14%20Creating%20a%20todo%20app%20with%20basic%20http%20server%20using%20nodejs)
+
+- [class-15 Routing in node js](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-15%20Routing%20in%20node%20js)
+
 - []()

@@ -1,13 +1,62 @@
 const http = require('http');
+const path = require('path');
+const fs = require('fs');
+
+const filePath = path.join(__dirname, './db/ToDo.json');
 
 const server = http.createServer((req, res) => {
-  // console.log(req, res);
-  // res.end('Welcome to ToDo server');
-
+  // create a todo
   if (req.url === '/todos' && req.method === 'GET') {
-    res.end('All Todos');
-  } else if (req.url === '/todos/create/todo' && req.method === 'POST') {
-    res.end('ToDo Created');
+    try {
+      const data = fs.readFileSync(filePath, { encoding: 'utf-8' });
+      res.writeHead(200, {
+        'content-type': 'application/json',
+      });
+      res.end(data);
+    } catch (err) {
+      console.error('Error reading ToDo.json:', err);
+      res.statusCode = 500;
+      res.end('Internal server error');
+    }
+
+    // evabeo data pathono jbe
+    // res.setHeader('content-type', 'text/plain');
+    // res.setHeader('email', 'neela@gmial.com');
+    // res.statusCode = 201;
+
+    // post a todo
+  } else if (req.url === '/todos/create-todo' && req.method === 'POST') {
+    let data = '';
+
+    req.on('data', chunk => {
+      data = data + chunk;
+    });
+
+    req.on('end', () => {
+      try {
+        // console.log(data);
+        const { title, body } = JSON.parse(data);
+        console.log({ title, body });
+
+        const createAt = new Date().toLocaleString();
+
+        const allTodos = fs.readFileSync(filePath, { encoding: 'utf-8' });
+
+        const parseData = JSON.parse(allTodos);
+
+        parseData.push({ title, body, createAt });
+
+        fs.writeFileSync(filePath, JSON.stringify(parseData, null, 2), {
+          encoding: 'utf-8',
+        });
+
+        res.end(JSON.stringify({ title, body, createAt }, null, 2));
+      } catch (err) {
+        console.error('Invalid JSON received:', err.message);
+        res.statusCode = 400;
+        res.end('Invalid Json');
+      }
+    });
   } else {
     res.end('Route not found');
   }
