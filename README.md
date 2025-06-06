@@ -32,4 +32,14 @@
 
 - [class-15 Routing in node js](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-15%20Routing%20in%20node%20js)
 
+- [class-16 Set response headers](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-16%20Set%20response%20headers)
+
+- [class-17 Creating and Reading A ToDo using Postman](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-17%20Creating%20and%20Reading%20A%20ToDo%20using%20Postman)
+
+- []()
+
+- []()
+
+## Foundation of Express
+
 - []()
