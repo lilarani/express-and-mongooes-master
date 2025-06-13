@@ -36,10 +36,38 @@
 
 - [class-17 Creating and Reading A ToDo using Postman](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-17%20Creating%20and%20Reading%20A%20ToDo%20using%20Postman)
 
-- []()
+- [class-18 Get Single ToDo with Query Params](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-18%20Get%20Single%20ToDo%20with%20Query%20Params)
 
-- []()
+- [class-19 Updating and Deleting Todo](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-19%20Updating%20and%20Deleting%20Todo)
 
 ## Foundation of Express
+
+- [class-20 Introduction to Express](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-20%20%20Introduction%20to%20Express)
+
+- [class-21 Creating Basic Web server with Express](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-21%20Creating%20Basic%20Web%20server%20with%20Express)
+
+- [class-22 What is parsers, request and response object](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-22%20What%20is%20parsers%2C%20request%20and%20response%20object)
+
+- [class-23 What is Params & Queries](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-23%20What%20is%20Params%20%26%20Queries)
+
+- [class-24 Routing in Express](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-24%20Routing%20in%20Express)
+
+- [class-25 Get Single ToDO, Updating & Deleting ToDos](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-25%20Get%20Single%20ToDO%2C%20Updating%20%26%20Deleting%20ToDos)
+
+- [class-26 Understanding Middleware in Express](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-26%20%20Understanding%20Middleware%20in%20Express)
+
+- [class-27 Error Handling in Express- 404s & Global Error Handler](https://github.com/lilarani/express-and-mongooes-master/tree/main/Lectures/class-27%20Error%20Handling%20in%20Express-%20404s%20%26%20Global%20Error%20Handler)
+
+## Exploration of Mongodb Queries
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
 
 - []()
